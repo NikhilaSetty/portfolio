@@ -54,7 +54,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.6 }}
             >
-              <a href="public/Nikhila Naralasetty Resume.pdf" className="flex items-center gap-2 bg-white text-purple-700 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
+              <a href="/Nikhila Naralasetty Resume.pdf" className="flex items-center gap-2 bg-white text-purple-700 px-6 py-2 rounded-lg hover:bg-purple-50 transition-colors">
                 <Download size={20} />
                 Download Resume
               </a>
@@ -85,7 +85,7 @@ function App() {
               transition={{ duration: 0.7 }}
             >
               <img 
-                src="public/Photo.jpg" 
+                src="/Photo.jpg" 
                 alt="Naralasetty Nikhila" 
                 className="w-full h-full object-cover"
               />
