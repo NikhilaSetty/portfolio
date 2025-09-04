@@ -46,7 +46,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.4 }}
             >
-              Driven to solve complex technical challenges, with a focus on cybersecurity and web application development. Leveraging my QA background and MTech studies to create secure and efficient solutions across various technical roles.
+              Results-driven QA Engineer with 1+ year of experience in manual and automation testing using Selenium, Java, and API tools. Currently pursuing M.Tech in CSE with a specialization in Cybersecurity and Digital Forensics. Skilled in test design, troubleshooting, and ensuring software reliability, with strong interest in secure and scalable application development.
             </motion.p>
             <motion.div 
               className="flex gap-4"
@@ -157,7 +157,7 @@ function App() {
               <p className="text-gray-600">July 2022 - December 2023</p>
               <ul className="mt-4 list-disc list-inside text-gray-700">
                 <li>Demonstrated Proficiency in Both Manual and Automation testing Methodologies</li>
-                <li>Developed and maintained automated test suites using Selenium and TestNG</li>
+                <li>Developed and maintained automated test suites using Selenium, BDD Cucumber and TestNG</li>
                 <li>Performed security testing and vulnerability assessments</li>
                 <li>Reduced manual testing effort by 60% through test automation</li>
               </ul>
@@ -191,11 +191,11 @@ function App() {
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ProjectCard 
-              title="Flipkart Selenium Automation"
-              description="End-to-end testing framework using Selenium WebDriver for Flipkart's web application"
+              title="Ecommerce Automation"
+              description="End-to-end testing framework using Selenium WebDriver for Ecommerce web application"
               details="A comprehensive automated testing suite built with Selenium WebDriver and TestNG framework. Features include automated test cases for product search, cart management, user authentication, and checkout processes. Implemented Page Object Model design pattern and data-driven testing approaches."
               image="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800"
-              link="http://github.com/NikhilaSetty/FlipkartSeleniumAutomation"
+              link="https://github.com/NikhilaSetty/AutomationProject"
             />
             <ProjectCard 
               title="Food Delivery Website"
@@ -231,6 +231,8 @@ function App() {
             <SkillCard title="Selenium WebDriver" level={80} />
             <SkillCard title="Java" level={85} />
             <SkillCard title="BDD Cucumber" level={80} />
+            <SkillCard title="Microsoft Azure" level={80} />
+            <SkillCard title="JIRA" level={80} />
             <SkillCard title="SQL" level={70} />
             <SkillCard title="Cyber Security" level={85} />
             <SkillCard title="React JS" level={70} />
